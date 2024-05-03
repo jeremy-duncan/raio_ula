@@ -29,3 +29,4 @@ python ra_rio.py
 ```
 
 add and remove RIOs in your network and watch the fun!
+* If there is no output after starting it, then your RAs don't have RIOs
