@@ -1,5 +1,11 @@
 # raio_ula
-IPv6 ULA in a Route Information Option (RIO) for Windows in an IPv6 Router Advertisement 
+IPv6 ULA in a Route Information Option (RIO) for Windows in an IPv6 Router Advertisement (RA)
+With this python code, the system will listen for RIOs in IPv6 RAs:
+1. will add if a prefix does not exist
+2. will remove if prefix is no longer in an RIO
+
+# Standard
+Follows the updated IETF 6Man draft: [https://datatracker.ietf.org/doc/draft-ietf-6man-rfc6724-update/](https://datatracker.ietf.org/doc/draft-ietf-6man-rfc6724-update/)
 
 # Prerequistes 
 This is for Windows, must be using Windows 10 +
