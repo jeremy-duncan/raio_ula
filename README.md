@@ -9,6 +9,7 @@ Follows the updated IETF 6Man draft: [https://datatracker.ietf.org/doc/draft-iet
 
 # Prerequistes 
 This is for Windows, must be using Windows 10 +
+* Must have a router that sends the RIO in an IPv6 RA
 * Must have Python 3x installed
 * Must have scapy 2.5.0 installed - install PIP first
 ```
