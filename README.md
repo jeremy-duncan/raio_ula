@@ -15,7 +15,7 @@ This is for Windows, must be using Windows 10 +
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
-** then install scapy:
+* then install scapy:
 ```
 pip install scapy
 ```
