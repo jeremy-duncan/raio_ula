@@ -11,8 +11,10 @@ Follows the updated IETF 6Man draft: [https://datatracker.ietf.org/doc/draft-iet
 This is for Windows, must be using Windows 10 +
 * Must have Python 3x installed
 * Must have scapy 2.5.0 installed - install PIP first
-** curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-  python get-pip.py
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+```
 ** then install scapy:
 ```
 pip install scapy
