@@ -7,11 +7,16 @@ This is for Windows, must be using Windows 10 +
 * Must have scapy 2.5.0 installed - install PIP first
 ** curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
   python get-pip.py
-** then install scapy: pip install scapy
+** then install scapy:
+```
+pip install scapy
+```
 
 # Start python code
-* Open cm,mand line as an Admin - MUST HAVE ADMIN PRIV
+* Open command line as an Admin - MUST HAVE ADMIN PRIV - cmd.exe
 * start:
+```
 python ra_rio.py
+```
 
 add and remove RIOs in your network and watch the fun!
