@@ -22,7 +22,7 @@ python get-pip.py
 pip install scapy
 ```
 
-# Start python code
+# Run the Application
 * Open command line as an Admin - MUST HAVE ADMIN PRIV - cmd.exe
 * start:
 ```
@@ -31,3 +31,8 @@ python ra_rio.py
 
 add and remove RIOs in your network and watch the fun!
 * If there is no output after starting it, then your RAs don't have RIOs
+* once an RIO is seen (and it falls in the fd00::/8 prefix, it will be added to the Windows prefixpolicy table. To view that table run this command from a Windows command line:
+```
+netsh interface ipv6 show prefixpolicies
+```
+
