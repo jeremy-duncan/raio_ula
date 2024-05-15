@@ -10,6 +10,7 @@ Follows the updated IETF 6Man draft: [https://datatracker.ietf.org/doc/draft-iet
 
 # Prerequistes 
 This is for Windows, must be using Windows 10 +
+* Must have wirehsark w/ NDCap installed - The "manuf" file must be added manually. Recent Wireshark downloads no longer install this file. It can be found at https://www.wireshark.org/download/automated/data/manuf and it needs to be stored in C:\Program Files\Wireshark (thanks Brian!)
 * Must have a router that sends the RIO in an IPv6 RA
 * Must have Python 3x installed
 * Must have scapy 2.5.0 installed - install PIP first
