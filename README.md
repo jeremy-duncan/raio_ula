@@ -32,8 +32,10 @@ python ra_rio.py
 
 add and remove PIOs and RIOs in your network and watch the fun!
 * If there is no output after starting it, then your RAs don't have RIOs or PIOs
+* can add manually assigned or DHCPv6 assigned address (if no RA exists) thanks to code provided by Brian Carpenter 
 * once an RIO or PIO is seen (and it falls in the fd00::/7 prefix), it will be added to the Windows prefixpolicy table. To view that table run this command from a Windows command line:
 ```
 netsh interface ipv6 show prefixpolicies
 ```
-
+# To Do
+* fix thew static address removal function per issue #2
