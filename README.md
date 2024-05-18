@@ -1,9 +1,9 @@
 # raio_ula
 IPv6 ULA in a Route Information Option (RIO) or a Prefix Information Option (PIO) for Windows in an IPv6 Router Advertisement (RA)
 
-With this python code, the system will listen for RIOs or PIOs in IPv6 RAs:
-1. will add a "known-local" ULA prifx if a prefix does not exist in the prefixoptions table - which means it must be in the fd00::/7 prefix boundary
-2. will remove if prefix is no longer in an RIO or PIO
+With this python code, the system will listen for RIOs & PIOs in IPv6 RAs, and scan the interface for statically assigned addresses:
+1. will add a "known-local" ULA prefix if a prefix does not exist in the Windows prefixpolicy table - which means it must be in the fd00::/7 prefix boundary
+2. will remove if prefix is no longer in an RIO or PIO (static address can't be removed currently per issue #2)
 
 # Standard
 Follows the updated IETF 6Man draft: [https://datatracker.ietf.org/doc/draft-ietf-6man-rfc6724-update/](https://datatracker.ietf.org/doc/draft-ietf-6man-rfc6724-update/)
