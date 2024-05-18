@@ -38,4 +38,4 @@ add and remove PIOs and RIOs in your network and watch the fun!
 netsh interface ipv6 show prefixpolicies
 ```
 # To Do
-* fix thew static address removal function per issue #2
+* fix the static address removal function per issue #2
